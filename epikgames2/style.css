@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('Mona-Sans.woff2') format('woff2 supports variations'), url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+
+html {
+  font-family: 'Mona Sans';
+}
+
+*, 
+*::before, 
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(13, 8, 46);
+}
+
+
+.logo{
+    width: 50px;
+}
+
+header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    border-bottom: 1px solid rgb(244, 233, 255, 0.44)
+}
+
+header nav{
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+header p {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+main{
+    position: relative;
+    background-color: rgb(13, 4, 34);
+    height: 100vh;
+    overflow: hidden;
+}
+
+shop-main{
+    overflow: hidden;
+}
+
+.parallax{
+    pointer-events: none;
+    transition: 0.45s cubic-bezier(0.2, 0.49, 0.32, 0.99)
+}
+
+.bg-img{
+    position: absolute;
+    width: 120vw;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.shopbg-img {
+    position: absolute;
+    width: 99.5vw;
+    height: 200vh;
+    z-index: 0;
+    overflow: initial;
+}
+
+.card1 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 15vw;
+    height: 40vh;
+    background: rgb(209, 149, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .5vmin solid rgb(237, 230, 238);
+    box-shadow: -.4rem .4rem rgb(237, 230, 238);
+    overflow: hidden;
+    z-index: 5;
+}
+
+.card2 {
+    position: absolute;
+    top: 95%;
+    right: 10%;
+    width: 15vw;
+    height: 40vh;
+    background: rgb(209, 149, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .5vmin solid rgb(237, 230, 238);
+    box-shadow: .4rem .4rem rgb(237, 230, 238);
+    overflow: hidden;
+    z-index: 5;
+}
+
+.card3 {
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    width: 15vw;
+    height: 40vh;
+    background: rgb(209, 149, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .5vmin solid rgb(237, 230, 238);
+    box-shadow: -.4rem .4rem rgb(237, 230, 238);
+    overflow: hidden;
+    z-index: 5;
+}
+
+.head1 {
+    position: absolute;
+    font-family: 'Mona Sans';
+    font-size: 7vh;
+    font-weight: 800;
+    font-stretch: 120%;
+    color: white;
+    top: 30%;
+    left: 29.5%;
+    z-index: 3;
+}
+
+h2 {
+    position:absolute;
+    font-family: 'Mona Sans';
+    font-size: 7vh;
+    font-weight: 800;
+    font-stretch: 120%;
+    color: white;
+    top: 15%;
+    left: 35%;
+    z-index: 3;
+    transition-delay: 100ms;
+    animation: appearup 0.7s ease;
+}
+
+h3 {
+    position: absolute;
+    font-family: 'Mona Sans';
+    font-size: 4vh;
+    font-weight: 600;
+    font-stretch: 110%;
+    color: white;
+    top: 50%;
+    left: 29%;
+    z-index: 3;
+
+}
+
+h4 {
+    position: absolute;
+    font-family: 'Mona Sans';
+    font-size: 4vh;
+    font-weight: 600;
+    max-width: 65vw;
+    font-stretch: 110%;
+    color: white;
+    top: 108%;
+    left: 5%;
+    z-index: 3;
+}
+
+.revealUp {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.accenttext{
+    font-size:4.5vh;
+    color: rgb(100, 87, 186)
+}
+
+.accenttext2 {
+    font-size: 4.5vh;
+    color: rgb(242, 131, 168)
+}
+
+
+@keyframes appearup{
+    from{
+        top: 25%;
+        opacity: 10%;
+    }
+    to{
+        top: 15%;
+        opacity: 100%;
+    }
+}
+
+
+
+.text1 {
+    position: absolute;
+    max-width:750px;
+    margin-top: 1.7vw;
+    margin-left: 1vw;
+    margin-right: 40vw;
+    text-align: left;
+    font-family:'Mona Sans';
+    font-weight: 500;
+    font-size: 2.7vh;
+    font-stretch: 100%;
+    color: white;
+    top: 43%;
+    left: 24.7%;
+    z-index: 2;
+}
+
+
+
+
+.click-img {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    z-index: 3;
+}
+
+.here-img {
+    pointer-events: all;
+    width: 10vw;
+    animation: rotateImg 8s linear infinite;
+    z-index:3;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    width: 20vw;
+    height: 30vw;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    z-index: 4;
+}
+
+.card__content {
+    background: rgb(28, 19, 40);
+    border-radius: 17px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cardtext{
+    font-family: 'Mona Sans';
+    font-weight: 700;
+    position: relative;
+    font-size: 5vh;
+    font-stretch: 110%;
+    width: 90%;
+    top:5%;
+    left: 6%
+
+}
+
+.cardtext1 {
+    font-family: 'Mona Sans';
+    font-weight: 500;
+    position: relative;
+    font-size: 2.5vh;
+    font-stretch: 100%;
+    width: 90%;
+    top: 10%;
+    left: 5.5%
+}
+
+.vignette{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+}
+
+.form-control input {
+    pointer-events: all;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 15vw;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: rgb(115, 109, 255);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: rgb(115, 109, 255);
+  transform: translateY(-30px);
+}
+
+
+button {
+    pointer-events: all;
+ position: relative;
+ padding: 1em 1.8em;
+ outline: none;
+ border: 1px solid #303030;
+ background: rgb(38, 24, 43);
+ color: #AF40FF;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-size: 1vh;
+ overflow: hidden;
+ transition: 0.2s;
+ border-radius: 20px;
+ top: 3vh;
+ left: 3.5vw;
+ cursor: pointer;
+ font-weight: bold;
+ width: 10vw;
+}
+
+button:hover {
+ box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+ transition-delay: 0.3s;
+}
+
+button span {
+ position: absolute;
+}
+
+button span:nth-child(1) {
+ top: 0;
+ left: -100%;
+ width: 100%;
+ height: 2px;
+ background: linear-gradient(90deg, transparent, #ae00ff);
+}
+
+button:hover span:nth-child(1) {
+ left: 100%;
+ transition: 0.5s;
+}
+
+button span:nth-child(3) {
+ bottom: 0;
+ right: -100%;
+ width: 100%;
+ height: 2px;
+ background: linear-gradient(90deg, transparent, #001eff);
+}
+
+button:hover span:nth-child(3) {
+ right: 100%;
+ transition: 0.5s;
+ transition-delay: 0.15s;
+}
+
+button span:nth-child(2) {
+ top: -100%;
+ right: 0;
+ width: 2px;
+ height: 100%;
+ background: linear-gradient(180deg, transparent, #ae00ff);
+}
+
+button:hover span:nth-child(2) {
+ top: 100%;
+ transition: 0.4s;
+ transition-delay: 0.03s;
+}
+
+button span:nth-child(4) {
+ bottom: -100%;
+ left: 0;
+ width: 2px;
+ height: 100%;
+ background: linear-gradient(360deg, transparent, #001eff);
+}
+
+button:hover span:nth-child(4) {
+ bottom: 100%;
+ transition: 0.4s;
+ transition-delay: 0.2s;
+}
+
+button:active {
+ background: #ae00af;
+ background: linear-gradient(to top right, #ae00af, #001eff);
+ color: #bfbfbf;
+ box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
+ transition: 0.04s;
+}
+
+button:active span:nth-child(1) 
+span:nth-child(2) 
+span:nth-child(2) 
+span:nth-child(2) {
+ transition: none;
+ transition-delay: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(65, 65, 65, 0.24);
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(151, 151, 151, 0.5);
+    border-radius: 10px;
+}
+
+@keyframes rotateImg{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+
+    
