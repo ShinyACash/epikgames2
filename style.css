@@ -98,18 +98,19 @@ shop-main{
 .shopbg-img {
     position: absolute;
     width: 99.5vw;
-    height: 200vh;
+    height: 300vh;
     z-index: 0;
     overflow: initial;
 }
 
 .card1 {
     position: absolute;
+    cursor: pointer;
     top: 45%;
     left: 10%;
     width: 15vw;
     height: 40vh;
-    background: rgb(209, 149, 255);
+    background: rgb(100, 87, 186);
     padding: 1rem;
     border-radius: 1rem;
     border: .5vmin solid rgb(237, 230, 238);
@@ -120,11 +121,12 @@ shop-main{
 
 .card2 {
     position: absolute;
+    cursor: pointer;
     top: 95%;
     right: 10%;
     width: 15vw;
     height: 40vh;
-    background: rgb(209, 149, 255);
+    background: rgb(242, 131, 168);
     padding: 1rem;
     border-radius: 1rem;
     border: .5vmin solid rgb(237, 230, 238);
@@ -136,10 +138,43 @@ shop-main{
 .card3 {
     position: absolute;
     top: 150%;
+    cursor: pointer;
     left: 10%;
     width: 15vw;
     height: 40vh;
-    background: rgb(209, 149, 255);
+    background: rgb(246, 177, 150);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .5vmin solid rgb(237, 230, 238);
+    box-shadow: -.4rem .4rem rgb(237, 230, 238);
+    overflow: hidden;
+    z-index: 5;
+}
+
+.card4 {
+    position: absolute;
+    top: 200%;
+    right: 10%;
+    cursor: pointer;
+    width: 15vw;
+    height: 40vh;
+    background: rgb(242, 233, 131);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .5vmin solid rgb(237, 230, 238);
+    box-shadow: .4rem .4rem rgb(237, 230, 238);
+    overflow: hidden;
+    z-index: 5;
+}
+
+.card5 {
+    position: absolute;
+    top: 255%;
+    cursor: pointer;
+    left: 10%;
+    width: 15vw;
+    height: 40vh;
+    background: rgb(131, 242, 242);
     padding: 1rem;
     border-radius: 1rem;
     border: .5vmin solid rgb(237, 230, 238);
@@ -200,19 +235,183 @@ h4 {
     z-index: 3;
 }
 
+h5 {
+    position: absolute;
+    font-family: 'Mona Sans';
+    font-size: 4vh;
+    max-width: 65vw;
+    font-weight: 600;
+    font-stretch: 110%;
+    color: white;
+    top: 165%;
+    left: 29%;
+    z-index: 3;
+}
+
+h6 {
+    position: absolute;
+    font-family: 'Mona Sans';
+    font-size: 4vh;
+    font-weight: 600;
+    max-width: 65vw;
+    font-stretch: 110%;
+    color: white;
+    top: 215%;
+    left: 5%;
+    z-index: 3;
+}
+
+h7 {
+    position: absolute;
+    font-family: 'Mona Sans';
+    font-size: 4vh;
+    font-weight: 600;
+    max-width: 65vw;
+    font-stretch: 110%;
+    color: white;
+    top: 265%;
+    left: 29%;
+    z-index: 3;
+}
+
 .revealUp {
     opacity: 0;
     visibility: hidden;
 }
 
+.card-head1 {
+    position: relative;
+    top: 27%;
+    left: 22%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 6vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-price1 {
+    position: relative;
+    top: 24%;
+    left: 2%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 9vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-head2 {
+    position: relative;
+    top: 27%;
+    left: 6%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 5vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-price2 {
+    position: relative;
+    top: 24%;
+    left: -6%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 9vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-head4 {
+    position: relative;
+    top: 27%;
+    left: 6%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 5vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-price4 {
+    position: relative;
+    top: 24%;
+    left: -5%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 9vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-head3 {
+    position: relative;
+    top: 27%;
+    left: 17%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 6vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-price3 {
+    position: relative;
+    top: 24%;
+    left: 0%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 9vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-head5 {
+    position: relative;
+    top: 30%;
+    left: 5%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 4vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
+.card-price5 {
+    position: relative;
+    top: 30%;
+    left: -5%;
+    color: rgb(255 255 255);
+    font-family: 'Mona Sans';
+    font-size: 7.5vh;
+    font-weight: 800;
+    font-stretch: 125%;
+}
+
 .accenttext{
     font-size:4.5vh;
-    color: rgb(100, 87, 186)
+    color: rgb(100, 87, 186);
 }
 
 .accenttext2 {
     font-size: 4.5vh;
-    color: rgb(242, 131, 168)
+    color: rgb(242, 131, 168);
+}
+
+.accenttext3 {
+    font-size: 4.5vh;
+    color: rgb(246, 177, 150);
+}
+
+.accenttext4 {
+    font-size: 4.5vh;
+    color: rgb(242, 233, 131);
+}
+
+.accenttext5 {
+    font-size: 4.5vh;
+    color: rgb(131, 242, 242);
 }
 
 
@@ -387,6 +586,7 @@ button {
  font-weight: bold;
  width: 10vw;
 }
+
 
 button:hover {
  box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
