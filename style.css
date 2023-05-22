@@ -569,10 +569,10 @@ h7 {
 
 .form-control {
   position: relative;
-  margin: 20px 0 40px;
+  margin: 30px 0 40px;
   top: 10%;
-  left: 5%;
-  width: 90%;
+  left: 10%;
+  width: 95%;
 }
 
 .form-control input {
@@ -632,7 +632,7 @@ button1 {
  transition: 0.2s;
  border-radius: 20px;
  top: 3vh;
- left: 3.5vw;
+ left: 3vw;
  cursor: pointer;
  font-weight: bold;
  width: 10vw;

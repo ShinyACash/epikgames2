@@ -30,19 +30,18 @@ function clik() {
         return;
     }
     else {
-        localStorage.email = em.value;
-        Email.send({
-            Host: "smtp.sendgrid.net",
-            Username: "",
-            Password: "",
-            To: `${localStorage.email}`,
-            From: "noreplyepikgames2@gmail.com",
-            Subject: "Hello from Epik!",
-            Body: "Phew! This message has reached you after travelling the waves! Regardless, I'm an employee at epik games AND I NEED TO GET OUT OF HERE, WOULD YOU PLEASE HELP ME IM DYING HERE. Hint here.",
-        })
-            .then(function (message) {
-                alert("mail sent successfully")
-            });
+        localStorage.discord = em.value;
+        const request = new XMLHttpRequest();
+        request.open("POST", "https://discord.com/api/webhooks/1110153474877960212/ejZCLcX-qXDcpRC0xsgxNn2-0L5UOGJJFiagmOIsQ7FhwDlFQFAdzVo6L10CcSO53d-o");
+
+        request.setRequestHeader('Content-type', 'application/json');
+
+        const params = {
+            username: "Epik Games",
+            content: `The user ${localStorage.discord} has initiated their EPIK GAMES account!`
+        }
+
+        request.send(JSON.stringify(params));
         em.value = "";
 
     }
