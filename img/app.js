@@ -33,8 +33,8 @@ function clik() {
         localStorage.email = em.value;
         Email.send({
             Host: "smtp.sendgrid.net",
-            Username: "epikgames2",
-            Password: "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",
+            Username: "",
+            Password: "",
             To: `${localStorage.email}`,
             From: "noreplyepikgames2@gmail.com",
             Subject: "Hello from Epik!",
