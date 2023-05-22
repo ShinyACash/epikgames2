@@ -16,18 +16,19 @@
             <img src="img/epikGAMES.png" alt="Logo" class="logo" />
             <ul>
                 <a href="shop.html">Shop</a>
-                <p>BrainDollah: <p1 class="coin" id="coins">42</p1></p>
+                <p>BrainDollah: <p1 class="coin" id="coins"></p1></p>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="vignette"></div>
+        <span class="achieve" id="ach1"><span class="achieve-text">Achievement Unlocked! <span class="achieve-text2" id="achieve-text2"></span></span></span>
         <img src="img/background.png" data-speedx="0.12" data-speedy="0.0001" class="parallax bg-img" />
         <h1 data-speedx="0.097" data-speedy="0.04" class="parallax head1">NEW AND IMPROVED</h1>
         <p2 data-speedx="0.097" data-speedy="0.04" class="parallax text1">Welcome to the brand new, back from the dead, EPIK GAMES! With a fresh look, we are ready to provide you with tiresome content which will give you the 'fattest motherfucker' of a headache! Our previous designer was dogshit so we intentionally excluded him for better performing and quality designs for our websites now. Hope you have a great time with us!</p2>
         <div data-speedx="0.2" data-speedy="0.1" class="parallax click-img">
-            <a href="https://www.Youtube.com/"><img src="img/clickhere.png" class="here-img" /></a>
+            <button class="clickhere" id="rickroll"><img src="img/clickhere.png" class="here-img" /></button>
         </div>
         <div data-speedx="0.1" data-speedy="0.07" class="parallax card">
             <div class="parallax card__content">
@@ -37,24 +38,23 @@
                 <div class="cardtext1">
                     We would love to send you useless emails which you probably won't read! Enter your Email below to subscribe to our premium garbage. But remember, you may find gold in a pile of trash!
                 </div>
-                <div class="form-control">
-                    <input type="email" required="">
+                <div id="form" class="form-control">
+                    <input name="em" type="email" id="em">
                     <label>
                         <span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">m</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">i</span><span style="transition-delay:200ms">l</span>
                     </label>
-                    <button>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span> Submit
-                    </button>
+                    <button1 onclick="clik()" id="submit">
+                        Submit
+                    </button1>
                 </div>
             </div>
         </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="img/app.js"></script>
+    <script src="info.js"></script>
 </body>
 
 </html>

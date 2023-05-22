@@ -1,3 +1,53 @@
+
+if (typeof (Storage) !== "undefined") {
+    if (localStorage.bs) {
+        document.getElementById("coins").innerHTML = localStorage.bs;
+    }
+    else {
+        localStorage.bs = 0;
+    }
+}
+
+
+click = document.getElementById("rickroll");
+
+if (click) {
+    click.addEventListener("click", function () {
+        if (localStorage.ach1 == "true") return;
+        document.getElementById("achieve-text2").innerHTML = "Not a Rick Roll";
+        document.getElementById("ach1").style.animation = "ach 4s ease";
+        localStorage.ach1 = "true";
+    });
+}
+
+
+
+
+
+function clik() {
+    em = document.getElementById("em");
+    if (em.value == "") {
+        return;
+    }
+    else {
+        localStorage.email = em.value;
+        Email.send({
+            Host: "smtp.sendgrid.net",
+            Username: "epikgames2",
+            Password: "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",
+            To: `${localStorage.email}`,
+            From: "noreplyepikgames2@gmail.com",
+            Subject: "Hello from Epik!",
+            Body: "Phew! This message has reached you after travelling the waves! Regardless, I'm an employee at epik games AND I NEED TO GET OUT OF HERE, WOULD YOU PLEASE HELP ME IM DYING HERE. Hint here.",
+        })
+            .then(function (message) {
+                alert("mail sent successfully")
+            });
+        em.value = "";
+
+    }
+}
+
 const parallax_el = document.querySelectorAll(".parallax");
 
 let xValue = 0,
