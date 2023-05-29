@@ -158,6 +158,7 @@ shop-main{
     top: 45%;
     left: 10%;
     width: 15vw;
+    max-width: 333px;
     height: 40vh;
     background: rgb(100, 87, 186);
     padding: 1rem;
@@ -174,6 +175,7 @@ shop-main{
     top: 95%;
     right: 10%;
     width: 15vw;
+    max-width: 333px;
     height: 40vh;
     background: rgb(242, 131, 168);
     padding: 1rem;
@@ -190,6 +192,7 @@ shop-main{
     cursor: pointer;
     left: 10%;
     width: 15vw;
+    max-width: 333px;
     height: 40vh;
     background: rgb(246, 177, 150);
     padding: 1rem;
@@ -207,6 +210,7 @@ shop-main{
     cursor: pointer;
     width: 15vw;
     height: 40vh;
+    max-width: 333px;
     background: rgb(242, 233, 131);
     padding: 1rem;
     border-radius: 1rem;
@@ -223,6 +227,7 @@ shop-main{
     left: 10%;
     width: 15vw;
     height: 40vh;
+    max-width: 333px;
     background: rgb(131, 242, 242);
     padding: 1rem;
     border-radius: 1rem;
@@ -552,7 +557,7 @@ h7 {
     font-size: 2.5vh;
     font-stretch: 100%;
     width: 90%;
-    top: 10%;
+    top: 7%;
     left: 5.5%
 }
 
@@ -570,7 +575,7 @@ h7 {
 .form-control {
   position: relative;
   margin: 30px 0 40px;
-  top: 10%;
+  top: 5%;
   left: 10%;
   width: 95%;
 }

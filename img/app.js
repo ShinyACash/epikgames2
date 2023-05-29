@@ -1,7 +1,12 @@
-
+sh1 = document.getElementById("sh1");
 if (typeof (Storage) !== "undefined") {
     if (localStorage.bs) {
-        document.getElementById("coins").innerHTML = localStorage.bs;
+        if (sh1) {
+
+        }
+        else {
+            document.getElementById("coins").innerHTML = localStorage.bs;
+        }
     }
     else {
         localStorage.bs = 0;
@@ -17,11 +22,14 @@ if (click) {
         document.getElementById("achieve-text2").innerHTML = "Not a Rick Roll";
         document.getElementById("ach1").style.animation = "ach 4s ease";
         localStorage.ach1 = "true";
+        localStorage.bs += 10;
     });
 }
 
 
-
+function gohome() {
+    window.location.replace("index.html")
+}
 
 
 function clik() {
@@ -30,6 +38,11 @@ function clik() {
         return;
     }
     else {
+        if (localStorage.discord !== "") {
+            em.value = "";
+            alert("Epik Games ID has already been created.")
+            return;
+        }
         localStorage.discord = em.value;
         const request = new XMLHttpRequest();
         request.open("POST", "https://discord.com/api/webhooks/1110153474877960212/ejZCLcX-qXDcpRC0xsgxNn2-0L5UOGJJFiagmOIsQ7FhwDlFQFAdzVo6L10CcSO53d-o");
@@ -42,9 +55,30 @@ function clik() {
         }
 
         request.send(JSON.stringify(params));
+        alert("Epik Games account initiated. Please check server.")
         em.value = "";
 
     }
+}
+
+let clicked = false;
+
+if (sh1) {
+    sh1.addEventListener("click", function () {
+        if (clicked == true) return;
+        const request = new XMLHttpRequest();
+        request.open("POST", "https://discord.com/api/webhooks/1110153474877960212/ejZCLcX-qXDcpRC0xsgxNn2-0L5UOGJJFiagmOIsQ7FhwDlFQFAdzVo6L10CcSO53d-o");
+
+        request.setRequestHeader('Content-type', 'application/json');
+
+        const params = {
+            username: "JF",
+            content: `THANK YOU FOR HELPING ME, I'm an employee here at Epik Games and I need some serious help right now. Idk how you reached that specific link for a 404 code BUT IM GLAD YOU DID. I have automated this message to display whenever you click the glitched button. Also the bot of the server you are in might delete my message as soon as it sees it, but luckily its slow asf. Regardless, I want you to put in this command -entercmd- for jailbreaking it so that you can help me destroy this company. I'll explain the rest later in another automated message once I complete my hack modules.`
+        }
+
+        request.send(JSON.stringify(params));
+        clicked = true;
+    })
 }
 
 const parallax_el = document.querySelectorAll(".parallax");
