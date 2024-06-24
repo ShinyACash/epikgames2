@@ -8,9 +8,10 @@
     <title>Shop</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="icon" type="image/x-icon" href="img/epikGAMES.png">
 </head>
 
-<body>
+<body id="bod">
     <header>
         <nav>
             <img src="img/epikGAMES.png" alt="Logo" class="logo" />
@@ -20,26 +21,44 @@
             </ul>
         </nav>
     </header>
-    <div class="shop-main">
+    <div class="notifications-container" id="notif">
+        <div class="info">
+            <div class="flex">
+                <div class="flex-shrink-0">
+                    <svg class="info-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="info-prompt-wrap">
+                    <p class="info-prompt-msg">
+                        Bro You Got Insufficient Funds Man!!
+                        <a class="info-prompt">Maybe get your ass to work and earn a bit, yeah?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-main"">
         <div class="vignette"></div>
         <h2>THE EPIK SHOP</h2>
         <img src="img/ORLDWW0.png" class="shopbg-img" />s
-        <div class="card1">
+        <div class="card1" onclick="hint()">
             <span class="revealUp card-head1">Hint</span>
             <span class="revealUp card-price1">B$15</span>
         </div>
-        <h3 class="revealUp"><span class="accenttext">Get a Hint™️.</span> Our improved systems can detect where you are stuck in the Hunt and will provide you with the best Hint™️ possible for the next code. Please note that there is only one Hint™️ per code to maintain the difficulty level of the Hunt hence buying another Hint™️ while stuck on the same code will not grant you a different Hint™️.</h3>
-        <div class="card2">
+        <h3 class="revealUp" ><span class="accenttext">Get a Hint™️.</span> Our improved systems can detect where you are stuck in the Hunt and will provide you with the best Hint™️ possible for the next code. Please note that there is only one Hint™️ per code to maintain the difficulty level of the Hunt hence buying another Hint™️ while stuck on the same code will not grant you a different Hint™️.</h3>
+        <div class="card2" onclick="doubler()">
             <span class="revealUp card-head2">Doubler</span>
             <span class="revealUp card-price2">B$50</span>
         </div>
-        <h4 class="revealUp"><span class="accenttext2">B$-Doubler™️.</span> It enables you to get double the Braindollah each code or achievement. A great investment to say the least. Does not reset and is a one time payment.</h4>
-        <div class="card3">
+        <h4 class="revealUp" ><span class="accenttext2">B$-Doubler™️.</span> It enables you to get double the Braindollah each code or achievement. A great investment to say the least. Does not reset and is a one time payment.</h4>
+        <div class="card3" onclick="dildo()">
             <span class="revealUp card-head3">Dildo</span>
             <span class="revealUp card-price3">B$10</span>
         </div>
         <h5 class="revealUp"><span class="accenttext3">Dildo™️.</span> The new and improved phallic object which can be added to your collection! Doesn't really have any other use besides being a part of your collection.</h5>
-        <div class="card4">
+        <div class="card4" onclick="dildole()">
             <span class="revealUp card-head4">Dildo LE</span>
             <span class="revealUp card-price4">B$25</span>
         </div>
@@ -53,6 +72,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="img/app.js"></script>
+    <script src="shop.js"></script>
     <script src="info.js"></script>
 </body>
 

@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('Mona-Sans.woff2') format('woff2 supports variations'), url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+html {
+    font-family: 'Mona Sans';
+}
+
+body {
+    background-color: rgb(53, 49, 49);
+}
+
+
+.line {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    margin-left: 26vw;
+    margin-right: 26vw;
+    border-bottom: 1px solid white;
+}
+
+.heading{
+    display: flex;
+    font-size: 7vh;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 18vh;
+    color: white;
+
+}
+
+.subhead1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3vh;
+    font-weight: 100;
+    padding-top: 11vh;
+    padding-left: 30vw;
+    margin: 0px;
+    color: white;
+}
+
+
+.subhead1cont {
+    position: absolute;
+    top: 38%;
+    right: 1vw;
+    font-size: 3vh;
+    font-weight: 200;
+    padding-right: 30vw;
+    color: white;
+}
+
+
+.subhead2cont {
+    position: absolute;
+    top: 47.5%;
+    font-size: 3vh;
+    right: 1vw;
+    font-weight: 200;
+    padding-right: 30vw;
+    color: white;
+}
+
+button {
+    position: relative;
+    opacity: 1;
+    z-index: 2;
+    left: 64.65vw;
+    top: 3vh;
+    cursor: pointer;
+    padding: 10px 20px;
+    padding-top: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Mona Sans';
+    font-weight: 200;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+button:hover {
+    background: rgb(195, 194, 194);
+    box-shadow: 0 0 30px 5px rgb(128, 128, 128);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+    button:hover::before {
+        -webkit-animation: sh02 0.5s 0s linear;
+        -moz-animation: sh02 0.5s 0s linear;
+        animation: sh02 0.5s 0s linear;
+    }
+
+button::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+button1 {
+    position: relative;
+    left: 25vw;
+    top: 3.5vh;
+    cursor: pointer;
+    padding: 10px 20px;
+    padding-top: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Mona Sans';
+    font-weight: 200;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+button1:hover {
+    background: rgb(195, 194, 194);
+    box-shadow: 0 0 30px 5px rgb(128, 128, 128);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+    button1:hover::before {
+        -webkit-animation: sh02 0.5s 0s linear;
+        -moz-animation: sh02 0.5s 0s linear;
+        animation: sh02 0.5s 0s linear;
+    }
+
+button1::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+button1:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.subhead3cont {
+    position: absolute;
+    top: 57.5%;
+    font-size: 3vh;
+    right: 1vw;
+    font-weight: 200;
+    padding-right: 30vw;
+    color: white;
+}
+
+.subhead2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3vh;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 6vh;
+    padding-left: 30vw;
+    color: white;
+}
+
+
+.subhead3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3vh;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 3vh;
+    padding-left: 30vw;
+    color: white;
+}
+
+.spinner {
+  position: relative;
+  width: 9px;
+  height: 9px;
+  opacity: 0;
+  left: 67vw;
+  transition: 0.2s linear;
+}
+
+.spinner div {
+  position: absolute;
+  width: 50%;
+  height: 150%;
+  background: #ffffff;
+  transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+  animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;
+}
+
+.spinner div:nth-child(1) {
+  --delay: 0.1;
+  --rotation: 36;
+  --translation: 150;
+}
+
+.spinner div:nth-child(2) {
+  --delay: 0.2;
+  --rotation: 72;
+  --translation: 150;
+}
+
+.spinner div:nth-child(3) {
+  --delay: 0.3;
+  --rotation: 108;
+  --translation: 150;
+}
+
+.spinner div:nth-child(4) {
+  --delay: 0.4;
+  --rotation: 144;
+  --translation: 150;
+}
+
+.spinner div:nth-child(5) {
+  --delay: 0.5;
+  --rotation: 180;
+  --translation: 150;
+}
+
+.spinner div:nth-child(6) {
+  --delay: 0.6;
+  --rotation: 216;
+  --translation: 150;
+}
+
+.spinner div:nth-child(7) {
+  --delay: 0.7;
+  --rotation: 252;
+  --translation: 150;
+}
+
+.spinner div:nth-child(8) {
+  --delay: 0.8;
+  --rotation: 288;
+  --translation: 150;
+}
+
+.spinner div:nth-child(9) {
+  --delay: 0.9;
+  --rotation: 324;
+  --translation: 150;
+}
+
+.spinner div:nth-child(10) {
+  --delay: 1;
+  --rotation: 360;
+  --translation: 150;
+}
+
+@keyframes spinner-fzua35 {
+  0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {
+    transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+  }
+
+  50% {
+    transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));
+  }
+}
