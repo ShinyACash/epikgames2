@@ -48,3 +48,10 @@ if (localStorage.ach7 == 'true') {
     ac7_desc.innerHTML = "You killed Epik Games, but at wht cost?";
 }
 
+if (localStorage.dildo == 1) {
+    document.getElementById("dil").style.opacity = 1;
+}
+
+if (localStorage.leg_dildo == 1) {
+    document.getElementById("dille").style.opacity = 1;
+}
