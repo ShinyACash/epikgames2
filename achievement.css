@@ -68,6 +68,68 @@ body{
     z-index: 2;
 }
 
+.card2 {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.03);
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.8), -15px -15px 30px rgba(255,255,255,0.09);
+    z-index: 2;
+}
+
+.card3 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.03);
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.8), -15px -15px 30px rgba(255,255,255,0.09);
+    z-index: 2;
+}
+
+.card4 {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.03);
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.8), -15px -15px 30px rgba(255,255,255,0.09);
+    z-index: 2;
+}
+
+.card5 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.03);
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.8), -15px -15px 30px rgba(255,255,255,0.09);
+    z-index: 2;
+}
+
+.card6 {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.03);
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.8), -15px -15px 30px rgba(255,255,255,0.09);
+    z-index: 2;
+}
+
+
+
 .ac1 {
     display: flex;
     justify-content: center;
@@ -86,7 +148,7 @@ body{
     align-items: center;
     text-align: center;
     padding: 0;
-    font-size: 2vh;
+    font-size: 0.95rem;
     /* max-width: fit-content; */
     color: darkgray;
 }
@@ -109,11 +171,125 @@ body{
     align-items: center;
     text-align: center;
     padding: 0;
-    font-size: 2vh;
+    font-size: 0.95rem;
     /* max-width: fit-content; */
     color: darkgray;
 }
 
+.ac3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    max-width: 250px;
+    color: azure;
+    content: "";
+}
+
+.ac3.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    font-size: 0.95rem;
+    /* max-width: fit-content; */
+    color: darkgray;
+}
+
+.ac4 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    max-width: 250px;
+    color: azure;
+    content: "";
+}
+
+.ac4.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    font-size: 0.95rem;
+    /* max-width: fit-content; */
+    color: darkgray;
+}
+
+.ac5 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    max-width: 250px;
+    color: azure;
+    content: "";
+}
+
+.ac5.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    font-size: 0.95rem;
+    /* max-width: fit-content; */
+    color: darkgray;
+}
+
+.ac6 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    max-width: 250px;
+    color: azure;
+    content: "";
+}
+
+.ac6.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    font-size: 0.95rem;
+    /* max-width: fit-content; */
+    color: darkgray;
+}
+
+.ac7 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    max-width: 250px;
+    color: azure;
+    content: "";
+}
+
+.ac7.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    font-size: 0.95rem;
+    /* max-width: fit-content; */
+    color: darkgray;
+}
 
 header {
     position: fixed;

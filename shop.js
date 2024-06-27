@@ -338,7 +338,7 @@ function hintpay() {
         setTimeout(function () {
             const params = {
                 username: "Epik Games",
-                content: `${localStorage.discord} has just claimed a hint! Message from JF: "Maybe if i try to look into the website in a deeper way, i could figure out the hash from within the site."`
+                content: `${localStorage.discord} has just claimed a hint! Message from JF: "Maybe if i try to look into the website in a deeper way, i could figure out the hash from within the site. maybe count the divs? and then do math."`
             }
             request.send(JSON.stringify(params));
             console.log("Paid");

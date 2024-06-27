@@ -170,6 +170,7 @@ function enterKey(e) {
                 pwd2 = true;
             }
             if (pwd2 && e.keyCode == 13) {
+                if (localStorage.cryptkeybought == 'false') return;
                 loopLines(crypt, "color2 margin", 120);
                 command.innerHTML = "";
                 textarea.value = "";

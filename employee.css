@@ -1,0 +1,204 @@
+/* flowers */
+/* death */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 7px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bod3 {
+    background-color: black;
+    outline: 3px solid #ffffff;
+    outline-offset: -20px;
+    margin: 0;
+    height: 100vh;
+}
+
+    .container .label {
+        font-size: 15px;
+        padding-left: 10px;
+        position: absolute;
+        top: 13px;
+        transition: 0.3s;
+        pointer-events: none;
+    }
+
+.input {
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0px 7px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1), -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+
+    .input:focus {
+        border: 2px solid transparent;
+        color: #fff;
+        box-shadow: 3px 3px 10px rgba(0,0,0,1), -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0,0,0,1), inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+    }
+
+.container .input:valid ~ .label,
+.container .input:focus ~ .label {
+    transition: 0.3s;
+    padding-left: 2px;
+    transform: translateY(-35px);
+}
+
+.container .input:valid,
+.container .input:focus {
+    box-shadow: 3px 3px 10px rgba(0,0,0,1), -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0,0,0,1), inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-image: repeating-radial-gradient( #0c0a0a 80%,#2f312f 90%,#3f4549 90%);
+    background-size: 65px 65px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.winninghead {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.winning_desc {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    text-align: center;
+    max-width: 40vw;
+    font-size: 1.5vw;
+}
+
+.achieve {
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    text-align: justify;
+    font-stretch: 100%;
+    background: rgb(39, 39, 39);
+    border-radius: 50px;
+    z-index: 5;
+    opacity: 0;
+    animation: none;
+}
+
+
+
+@keyframes ach {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 100%;
+    }
+
+    75% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+.achieve-text {
+    position: relative;
+    top: 20%;
+    left: 18%;
+}
+
+.achieve-text2 {
+    position: relative;
+    top: 30%;
+    left: -44%;
+    font-size: 2vh;
+    max-width: 10px;
+    overflow: hidden;
+}
+
+.pic{
+    height: 13vw;
+    width: 13vw;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+#square {
+    border: solid 3px;
+    border-color: white;
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    width: 10px;
+    height: 10px;
+}
+
+#square2 {
+    border: solid 3px;
+    border-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    width: 10px;
+    height: 10px;
+}
+
+#square3 {
+    border: solid 3px;
+    border-color: white;
+    position: absolute;
+    bottom: 17px;
+    right: 17px;
+    width: 10px;
+    height: 10px;
+}
+
+#square4 {
+    border: solid 3px;
+    border-color: white;
+    position: absolute;
+    bottom: 17px;
+    left: 17px;
+    width: 10px;
+    height: 10px;
+}
