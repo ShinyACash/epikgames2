@@ -110,7 +110,7 @@ function hint() {
         else {
             document.getElementById("notif").style.right = `2vw`;
             setTimeout(async () => {
-                document.getElementById("notif").style.right = `-17vw`;
+                document.getElementById("notif").style.right = `-20vw`;
             }, 3000);
         }
     }
@@ -126,7 +126,7 @@ function doubler() {
         else {
             document.getElementById("notif").style.right = `2vw`;
             setTimeout(async () => {
-                document.getElementById("notif").style.right = `-17vw`;
+                document.getElementById("notif").style.right = `-20vw`;
             }, 3000);
         }
     }
@@ -142,7 +142,7 @@ function dildo() {
         else {
             document.getElementById("notif").style.right = `2vw`;
             setTimeout(async () => {
-                document.getElementById("notif").style.right = `-17vw`;
+                document.getElementById("notif").style.right = `-20vw`;
             }, 3000);
         }
     }
@@ -158,7 +158,7 @@ function dildole() {
         else {
             document.getElementById("notif").style.right = `2vw`;
             setTimeout(async () => {
-                document.getElementById("notif").style.right = `-17vw`;
+                document.getElementById("notif").style.right = `-20vw`;
             }, 3000);
         }
     }
@@ -174,7 +174,7 @@ function crypt() {
         else {
             document.getElementById("notif").style.right = `2vw`;
             setTimeout(async () => {
-                document.getElementById("notif").style.right = `-17vw`;
+                document.getElementById("notif").style.right = `-20vw`;
             }, 3000);
         }
     }
