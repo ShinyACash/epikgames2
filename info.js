@@ -199,7 +199,7 @@ function chkpnt() {
     localStorage.ach5 = "false";
     localStorage.ach6 = "false";
     localStorage.ach7 = "false";
-    localStorage.discord = "";
+    localStorage.discord = localStorage.discord;
     localStorage.dildo = 1;
     localStorage.leg_dildo = 1;
     localStorage.doubler = 1;
@@ -229,4 +229,13 @@ function chkpnt() {
     localStorage.pay = "false";
     localStorage.cryptkey = "secretbitch@akadan";
     console.log("Checkpoint restoration complete.");
+    const request = new XMLHttpRequest();
+    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+
+    request.setRequestHeader('Content-type', 'application/json');
+    const params = {
+        username: "Epik Games",
+        content: `${localStorage.discord} has resetted their checkpoint!`
+    }
+    request.send(JSON.stringify(params));
 }
