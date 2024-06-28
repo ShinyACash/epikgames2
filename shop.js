@@ -298,7 +298,7 @@ function hintpay() {
         setTimeout(function () {
             const params = {
                 username: "Epik Games",
-                content: `${localStorage.discord} has just claimed a hint! Message from JF: "I have tried to put the hash in a text file which has been hijacked by the epik games dev team, i typed the characters needed for the next hash to help you but they changed it to a code"`
+                content: `${localStorage.discord} has just claimed a hint! Message from JF: "I have tried to put the hash in a text file which has been hijacked by the epik games dev team, i typed the characters needed for the next hash to help you but they changed it to a code. maybe the numbers correspond to the characters?"`
             }
             request.send(JSON.stringify(params));
             console.log("Paid");
