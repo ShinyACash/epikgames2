@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('Mona-Sans.woff2') format('woff2 supports variations'), url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+html {
+    font-family: 'Mona Sans';
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(4, 4, 4);
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.c2{
+    position: absolute;
+    overflow: hidden;
+    align-content:center;
+}
+
+.bg1{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-clip: border-box;
+    z-index: 0;
+}
+
+.paint1 {
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+    border: double;
+    border-width: 11px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    height: 70vh;
+    width: 25vw;
+    z-index: 1;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30vh;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    bottom: -10%;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+p1 {
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-stretch: 100%;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    max-width: 35vw;
+    text-align: center;
+    color: white;
+}
+
+button1 {
+    cursor: pointer;
+    position: absolute;
+    left: 46.5%;
+    top: 70%;
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+}
+
+button1 span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+button1 span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+}
+
+button1 span:not(hover) {
+    transition: all 1s;
+}
+
+button1.sh2{
+    position:absolute;
+    top:70vh;
+}
+
+button,
+button::after {
+    padding: 16px 20px;
+    font-size: 18px;
+    background: linear-gradient(45deg, transparent 5%, #808080 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 1;
+    box-shadow: 6px 0px 0px white;
+    outline: transparent;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    animation: appear 30s linear;
+
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+button::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    content: "CLICK HERE";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, white 3%, white 5%, #808080 5%);
+    text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+    clip-path: var(--slice-0);
+    animation: 1s glitch infinite;
+    animation-timing-function: steps(2, end);
+}
+
+
+@keyframes glitch {
+    0% {
+        clip-path: var(--slice-1);
+        transform: translate(-20px, -10px);
+    }
+
+    10% {
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+    }
+
+    20% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 10px);
+    }
+
+    30% {
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+    }
+
+    40% {
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+    }
+
+    50% {
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+    }
+
+    60% {
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+    }
+
+    70% {
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+    }
+
+    80% {
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+    }
+
+    90% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 0px);
+    }
+
+    100% {
+        clip-path: var(--slice-1);
+        transform: translate(0);
+    }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 0.75;
+  position: absolute;
+  left: 13.5vw;
+  top: 25vh;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+span1 {
+  display: block;
+}
+
+span1:not(.light) {
+  opacity: 0;
+}
+
+span1.light {
+  color: #1d1f20;
+  position: relative;
+  display: inline-block;
+}  
+span1.light::after {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+ 
+}
+
+h2.long span1:not(.light) {
+  animation: flashText 0.6s ease-out alternate 2;
+}
+
+h2.long span1.light::after {
+    animation: flash 0.6s ease-out alternate 2;
+}
+
+h2.short span1:not(.light) {
+  animation: flashText 0.2s ease-out alternate 2;
+}
+
+h2.short span1.light::after {
+
+    animation: flash 0.2s ease-out alternate 2;
+}
+
+@keyframes flash{
+  to {
+    color: #fff;
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    color: #fff;
+    opacity: 0.15;
+  }
+}
+
+.achieve {
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    font-family: 'Mona Sans';
+    font-weight: 400;
+    font-size: 2vh;
+    text-align: center;
+    font-stretch: 100%;
+    background: rgb(39, 39, 39);
+    border-radius: 50px;
+    z-index: 5;
+    opacity: 0;
+    animation: none;
+}
+
+@keyframes ach {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 100%;
+    }
+
+    75% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+.achieve-text {
+    position: relative;
+    top: 20%;
+    left: 8%;
+}
+
+.achieve-text2 {
+    position: relative;
+    top: 30%;
+    left: -38%;
+    font-size: 2vh;
+    max-width: 10px;
+    overflow: hidden;
+}
