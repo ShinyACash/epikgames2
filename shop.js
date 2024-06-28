@@ -552,7 +552,7 @@ function cryptpay() {
     request.setRequestHeader('Content-type', 'application/json');
 
 
-    if (localStorage.leg_dildo == 0) {
+    if (localStorage.cryptkeybought == 'false') {
 
         document.getElementById("paybutton").style.opacity = 0;
         document.getElementById("wr").setAttribute("style", "opacity: 1;");
