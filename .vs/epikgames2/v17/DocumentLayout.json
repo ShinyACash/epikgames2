@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:shop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:achievement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:achievements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\info.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:info.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:shop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\img\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\purchase_crypt.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:purchase_crypt.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:achievement.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievement.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:achievement.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:achievements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\qR7yT9e5FbD2gP3kR8L69fuk\\5uGDi6A537BBnigga0alinbe404800towerscicada3275IA.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -178,17 +178,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "info.js",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\info.js",
               "RelativeDocumentMoniker": "info.js",
               "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\info.js",
               "RelativeToolTip": "info.js",
-              "ViewState": "AQIAALcAAAAAAAAAAAAqwMkAAAAvAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAiwMkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2023-05-21T14:51:38.424Z",
               "IsPinned": true,
@@ -209,43 +209,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\style.css",
-              "RelativeDocumentMoniker": "style.css",
-              "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\style.css",
-              "RelativeToolTip": "style.css",
-              "ViewState": "AQIAAAkDAAAAAAAAAAAAAC0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-27T06:27:24.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "shop.html",
-              "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.html",
-              "RelativeDocumentMoniker": "shop.html",
-              "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.html",
-              "RelativeToolTip": "shop.html",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T06:27:12.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "achievement.js",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievement.js",
               "RelativeDocumentMoniker": "achievement.js",
               "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievement.js",
               "RelativeToolTip": "achievement.js",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAAiAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-26T05:56:58.497Z"
+              "WhenOpened": "2024-06-26T05:56:58.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "app.js",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\img\\app.js",
               "RelativeDocumentMoniker": "img\\app.js",
@@ -257,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "shop.js",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.js",
               "RelativeDocumentMoniker": "shop.js",
@@ -270,7 +247,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "achievements.html",
+              "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievements.html",
+              "RelativeDocumentMoniker": "achievements.html",
+              "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievements.html",
+              "RelativeToolTip": "achievements.html",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-25T16:05:52.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "shop.html",
+              "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.html",
+              "RelativeDocumentMoniker": "shop.html",
+              "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\shop.html",
+              "RelativeToolTip": "shop.html",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-27T06:27:12.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AQIAAAkDAAAAAAAAAAAAAC0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-27T06:27:24.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "purchase_crypt.html",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\purchase_crypt.html",
               "RelativeDocumentMoniker": "purchase_crypt.html",
@@ -282,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "achievement.css",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievement.css",
               "RelativeDocumentMoniker": "achievement.css",
@@ -294,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -303,18 +317,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-26T06:19:25.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "achievements.html",
-              "DocumentMoniker": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievements.html",
-              "RelativeDocumentMoniker": "achievements.html",
-              "ToolTip": "C:\\Users\\Akash\\Documents\\GitHub\\epikgames2\\achievements.html",
-              "RelativeToolTip": "achievements.html",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowC0AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-25T16:05:52.065Z"
             },
             {
               "$type": "Document",

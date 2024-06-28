@@ -45,7 +45,7 @@ if (localStorage.ach6 == 'true') {
 
 if (localStorage.ach7 == 'true') {
     ac7.innerHTML = "True Ending";
-    ac7_desc.innerHTML = "You killed Epik Games, but at wht cost?";
+    ac7_desc.innerHTML = "You killed Epik Games, but at what cost?";
 }
 
 if (localStorage.dildo == 1) {
@@ -53,5 +53,5 @@ if (localStorage.dildo == 1) {
 }
 
 if (localStorage.leg_dildo == 1) {
-    document.getElementById("dille").style.opacity = 1;
+    document.getElementById("dil_le").style.opacity = 1;
 }
