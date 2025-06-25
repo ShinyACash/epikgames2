@@ -182,7 +182,7 @@ function crypt() {
 
 function hintpay() {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+    request.open("POST", "##");
 
     request.setRequestHeader('Content-type', 'application/json');
     if (localStorage.c1 == "False") {
@@ -433,6 +433,11 @@ function hintpay() {
     }
     else if (localStorage.c13 == "True") {
         alert("Sorry but there's no more hints left from this point on!");
+        const params = {
+            username: "Epik Games",
+            content: `${localStorage.discord} has just claimed a hint! Message from JF: This is a test"`
+        }
+        request.send(JSON.stringify(params));
         window.location.replace("shop.html");
     }
 
@@ -442,7 +447,7 @@ function hintpay() {
 
 function doublerpay() {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+    request.open("POST", "##");
 
     request.setRequestHeader('Content-type', 'application/json');
 
@@ -477,7 +482,7 @@ function doublerpay() {
 
 function dildopay() {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+    request.open("POST", "##");
 
     request.setRequestHeader('Content-type', 'application/json');
 
@@ -512,7 +517,7 @@ function dildopay() {
 
 function dildolepay() {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+    request.open("POST", "##");
 
     request.setRequestHeader('Content-type', 'application/json');
 
@@ -547,7 +552,7 @@ function dildolepay() {
 
 function cryptpay() {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+    request.open("POST", "##");
 
     request.setRequestHeader('Content-type', 'application/json');
 

